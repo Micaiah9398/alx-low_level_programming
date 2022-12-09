@@ -4,8 +4,10 @@
  * main - Entry point
  * Rerurn: Always 0 (success)
  */
+
 int main(void)
+
 {
-	 printf("\"programming is like a multillingual puzzle");
+	 printf("programming is like a multillingual puzzle,\n");
 	 return (0);
 }
