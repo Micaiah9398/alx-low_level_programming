@@ -14,7 +14,7 @@ int main(void)
 	c = 'a';
 	d = 'A';
 	while
-		( c <= 'z' ) {
+		(c <= 'z') {
 			putchar(c);
 			c++;
 		}
@@ -23,6 +23,6 @@ int main(void)
 			putchar(c);
 			d++;
 		}
-	purchar('\n');
-	rerurn (0)
+	putchar('\n');
+	return (0);
 }
