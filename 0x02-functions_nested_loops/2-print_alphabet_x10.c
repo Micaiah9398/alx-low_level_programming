@@ -3,7 +3,8 @@
 /**
  * print alphabet_ x10 - print alpha 10 times
  */
-void print_alphabet_x10(void)
+
+int void print_alphabet_x10(void)
 {
 	int ten;
 	char la;
@@ -11,6 +12,7 @@ void print_alphabet_x10(void)
 	for (ten = 0; ten <= 9; ten++)
 	{
 		for (la = 'a'; la <= 'z'; la++)
-			_putchar('\n');
+			_putchar(la);
+		_putchar('\n')
 	}
 }
