@@ -9,19 +9,25 @@
  */
 int largest_number(int a, int b, int c)
 {
-int largest;
+	int largest
 
-printf("enter three integers");
-
-scanf("%d %d %d, &a, &b, &C");
-
-if (a > b && a > c)
-printf("enter integer value", a)
-
-else if (b > a && b > c)
-printf("largest integer value is", b)
-else
-printf("largest integer value is", c)
-
-return (largest);
-}
+		if (a > b)
+		{
+			if (a > c)
+			{
+				largest = a;
+			}
+			else
+			{
+				largest = c;
+			}
+		}
+		else if (b > c)
+		{
+			largest = b;
+		}
+		else
+		{
+			largest = c;
+		}
+	return (largest);
