@@ -2,30 +2,29 @@
 
 /**
  * print_triangle - entry point
- * description: prints digonals
- * @size: size of the triangle
+ * Description: Prints diagonals
+ *@size: size of the triangle
  * Return: void
  */
 
 void print_triangle(int size)
-
 {
 
-	int row, hashes, space;
+	int row, hashes, spaces;
 
 	if (size <= 0)
 	{
-	_putchar('\'_);
+		_putchar('\n');
 	}
 	else
 	{
 		for (row = 1; row <= size; row++)
-			{
-			for (space = size - row; space >= 1; space--)
+		{
+			for (spaces = size - row; spaces >= 1; spaces--)
 			{
 				_putchar(' ');
 			}
-				for (hashes = 1; hashes <= row; hashes++)
+			for (hashes = 1; hashes <= row; hashes++)
 			{
 				_putchar('#');
 			}
