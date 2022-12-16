@@ -1,8 +1,8 @@
 include "main.h"
 
 /**
- *print_numbers - print 0 - 9
- *time dedicated alx
+ *print_numbers - print 0123456789
+ * time dedicated alx
  *Return: void
  */
 
