@@ -7,17 +7,21 @@
  * @c: third integer
  * Return: largest number
  */
+int largest_number(int a, int b, int c)
 {
-int a, b, c;
+int largest;
+
 printf("enter three integers");
-scanf(%d %d %d, &a, &b, &C);
+
+scanf("%d %d %d, &a, &b, &C");
 
 if (a > b && a > c)
-	printf("enter integer value",a)
+printf("enter integer value", a)
+
 else if (b > a && b > c)
-	printf("largest integer value is", b)
+printf("largest integer value is", b)
 else
-	printf("largest integer value is", c)
+printf("largest integer value is", c)
 
 return (largest);
 }
