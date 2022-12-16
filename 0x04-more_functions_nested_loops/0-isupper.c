@@ -6,9 +6,7 @@
  */
 int _isupper(int c);
 {
-	for (int c = 'A'; c <= 'Z'; c++)
-		c = uppercase(c);
-	putchar(c);
+	if ((c >= 'A') && (c <= 'Z'))
 
 	return (1);
 
