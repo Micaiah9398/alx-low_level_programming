@@ -1,11 +1,11 @@
 #include "main.h"
+
 /**
- * main - check code that points
- *
- *@n: a pointer reset
+ * reset_to_98 -> a function to update the reference of pointer
+ *@n: a pointer reset to be updated
  */
 
 void reset_to_98(int *n);
 {
-	*n = 98
+	*n = 98;
 }
