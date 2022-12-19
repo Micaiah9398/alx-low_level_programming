@@ -1,1 +1,2 @@
-this project intend to cover hint on how to carry out command and codes for pointers and_arrays_strings in given functions.
+## Pointers, Arrays and Strings
+**98 Battery st:** write a function that takes a pointer to an int as parameter and updates value it points to  to 98.
