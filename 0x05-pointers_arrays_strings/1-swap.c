@@ -1,19 +1,14 @@
 #include "main.h"
-/**
- * main - code to be checked
- *
- * Return: Always 0.
- *
- * @c: swap int a int b
- */
 
+/**
+ * Swap_int -> given two integers swap the value they are holding
+ * @a: parameter 1
+ * @b: parameter 2
+ */
 void swap_int(int *a, int *b);
 {
 int m;
 	m = *a;
-
 	a = *b;
-	*b = m;
-
-	return (0);
+	*b = m
 }
