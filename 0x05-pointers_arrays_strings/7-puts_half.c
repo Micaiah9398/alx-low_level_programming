@@ -3,12 +3,12 @@
 
 /**
  * puts_half - puts half.
- * @str: string function
+ * @str: string param
  */
 
 void puts_half(char *str)
 {
-	int x, y i;
+	int x, y, i;
 
 	x = strlen(str);
 	if (x % 2 == 1)
