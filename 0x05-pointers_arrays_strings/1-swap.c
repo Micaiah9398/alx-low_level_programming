@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * Swap_int -> given two integers swap the value they are holding
+ * Swap_int - given two integers swap the value they are holding
  * @a: parameter 1
  * @b: parameter 2
  */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
-int m;
+	int m;
+
 	m = *a;
-	a = *b;
-	*b = m
+	*a = *b;
+	*b = m;
 }
