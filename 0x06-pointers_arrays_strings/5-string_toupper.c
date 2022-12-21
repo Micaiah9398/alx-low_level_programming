@@ -5,7 +5,7 @@
  * @n: pointer
  * Return: char
  */
-char *string_toupper(char *n)
+char *string_toupper(char *)
 {
 	int i;
 
