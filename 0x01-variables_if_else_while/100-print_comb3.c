@@ -5,26 +5,24 @@
  */
 int main(void)
 {
-	int ones = '0';
-	int tens = '0';
+	int num1, num2;
 
-for (tens = '0'; tens <= '9'; tens++)/*prints tens digit*/
+	num1 = 48;
+
+	while (num1 < 58)
 	{
-		for (ones = '0'; ones < '9'; ones++)/*prints ones digits*/
-	{
-		if (!((ones == tens) || (tens > ones)))/*eliminates repitition*/
+		num2 = 48;
+		while (num2 < 58)
 		{
-			putchar(tens);
-			putchar(ones);
-
-			if (!(ones == '9' && tens == '8'))/*addes comma amd space*/
-			{
-				putchar (',');
-				putchar('');
-			}
+			putchar(num1);
+			putchar(num2);
+			num2++;
+			putchar(',');
+			putchar(' ');
 		}
+		num1++;
 	}
+	putchar('\n');
+	return (0);
 }
-putchar(',');
-return (0);
-}
+
