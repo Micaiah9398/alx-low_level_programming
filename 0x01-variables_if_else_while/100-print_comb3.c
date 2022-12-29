@@ -9,10 +9,10 @@ int main(void)
 
 	num1 = 48;
 
-	while (num1 < 58)
+	while (num1 < 57)
 	{
 		num2 = 48;
-		while (num2 < 58)
+		while (num2 < 57)
 		{
 			putchar(num1);
 			putchar(num2);
