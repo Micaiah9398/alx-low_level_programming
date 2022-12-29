@@ -1,11 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * main - Entry
+ * main - Entry point
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
-int main(void);
+int main(void)
 {
 	printf("size of a char: %li byte(s)\n", sizeof(char));
 	printf("size of an int: %li byte(s)\n", sizeof(int));
