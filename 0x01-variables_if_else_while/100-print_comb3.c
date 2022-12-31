@@ -1,25 +1,27 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return: Always 0 (Success)
+ *
+ * Return: Always 0 (Sucess)
  */
+
 int main(void)
 {
-	int tens;
-	int ones;
-	for (tens = 0; tens <= 9; tens++)
-	{
-		for (ones = tens + 1; ones <= 9; ones++)
-		{
-			putchar(tens + ;0');
-			putchar(tens + ;0');
-			if (tens <8)
-			{
-				putchar(',');
-				putchar(' ');
-			}
-		}
-	}
-	putchar('\n');
-	return (0);
+int num1, num2;
+
+num1 = 0;
+
+for (char num1 = '0'; num1 < '9'; num1++)
+{
+for (char num2 = num1 + 1; num2 <= '9'; num2++)
+{
+putchar(num1);
+putchar(num2);
+num2++;
+putchar(',');
+putchar(' ');
+}
+}
+putchar('\n');
+return (0);
 }
