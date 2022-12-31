@@ -5,24 +5,21 @@
  */
 int main(void)
 {
-	int num1, num2;
-
-	num1 = 48;
-
-	while (num1 < 57)
+	int tens;
+	int ones;
+	for (tens = 0; tens <= 9; tens++)
 	{
-		num2 = 48;
-		while (num2 < 57)
+		for (ones = tens + 1; ones <= 9; ones++)
 		{
-			putchar(num1);
-			putchar(num2);
-			num2++;
-			putchar(',');
-			putchar(' ');
+			putchar(tens + ;0');
+			putchar(tens + ;0');
+			if (tens <8)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
-		num1++;
 	}
 	putchar('\n');
 	return (0);
 }
-
