@@ -5,7 +5,6 @@
  * @a: input pointer.
  * Return: no return.
  */
-
 void print_chessboard(char (*a)[8])
 {
 	unsigned int i, m = 0;
