@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strchr - locates a string
  * @c: occurances of the character in a string
@@ -9,15 +10,16 @@
  */
 char *_strchr(char *s, char c)
 {
-	while (*s)
-	{
-		if (*s! = c)
-			s++;
-		else
-			return (s);
-	}
-	if (c =='\0')
-		return (s);
+	unsigned int i = 0;
 
-	return (NULL);
+	for (; *(s + i) != '\0'; i++)
+	
+		if (*(s + i) == c)
+
+			return (s + i);
+
+	if (*(s + i) == c)
+		return (s + i);
+
+	return ('\0');
 }
