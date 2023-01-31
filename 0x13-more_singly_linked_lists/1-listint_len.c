@@ -3,13 +3,13 @@
  * listint_len - returns the number of elements in
  * a linked list.
  *@h: element in a link
- * Return: Always 0.
+ * Return: number of nodes.
  */
-size_t listint_len(cinst listint_t *h)
+size_t listint_len(const listint_t *h)
 {
-size_t i = 0;
+int t i = 0;
 
-while (h)
+while (h ! = NULL)
 {
 i++;
 h = h->next;
