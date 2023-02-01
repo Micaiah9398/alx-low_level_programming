@@ -14,7 +14,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 
 	listint_t *current;
 
-	(void)current;
+	current = *head;
 
 	new = malloc(sizeof(listint_t));
 
