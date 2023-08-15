@@ -1,0 +1,1 @@
+A singly linked list is a data structure that consists of a sequence of elements, where each element is called a "node." Each node contains two main components: a data element and a reference (or pointer) to the next node in the sequence. The last node typically points to a special value like null to indicate the end of the list.
